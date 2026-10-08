@@ -1,0 +1,23 @@
+{
+  "name": "cyberguard-ai",
+  "version": "1.0.0",
+  "description": "CyberGuard AI real-time LAN call and scam detection",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "electron .",
+    "electron": "electron .",
+    "desktop": "electron .",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "electron": "^31.0.0",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
