@@ -1,0 +1,17 @@
+{
+  "name": "jarvis-voice-assistant",
+  "version": "1.0.0",
+  "description": "Jarvis AI assistant with voice input and output",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^5.6.0",
+    "axios": "^1.19.0",
+    "dotenv": "^16.6.1",
+    "node-record-lpcm16": "^1.0.1",
+    "say": "^0.16.0",
+    "wav": "^1.0.2"
+  }
+}
